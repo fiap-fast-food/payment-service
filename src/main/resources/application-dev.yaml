@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/payment-db
+
+mercado:
+  pago:
+    access:
+      token: ${MERCADO_PAGO_ACCESS_TOKEN:TEST-8883690475272396-021516-af7ed20f5095c9ce2e12649a35f348ee-1076662323}
+
+order:
+  payment:
+    status:
+      url: ${ORDER_SERVICE_URL:http://localhost:8080/orders}
+
+server:
+  port: 8083
