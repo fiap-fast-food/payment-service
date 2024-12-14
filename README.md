@@ -5,7 +5,7 @@ Serviço responsável por operacionalizar a cobrança de um pedido, registrando 
 <img src="assets/arquiteturafase04.jpg">
 
 ### Evidência sonar
-<img src="assets/sonar.png">
+<img src="assets/cobertura_sonar.png">
 
 ## Comandos para rodar os testes
 
