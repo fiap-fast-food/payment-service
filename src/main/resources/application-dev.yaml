@@ -6,7 +6,7 @@ spring:
 mercado:
   pago:
     access:
-      token: ${MERCADO_PAGO_ACCESS_TOKEN:TEST-8883690475272396-021516-af7ed20f5095c9ce2e12649a35f348ee-1076662323}
+      token: ${MERCADO_PAGO_ACCESS_TOKEN}
 
 order:
   payment:
